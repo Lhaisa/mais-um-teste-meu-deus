@@ -1,0 +1,45 @@
+/* Fundo e títulos */
+#personagens {
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.7); /* fundo semi-transparente */
+}
+
+#personagens h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: white;
+}
+
+/* Card */
+#personagens .card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  color: white;
+  transition: 0.3s;
+}
+
+/* efeito hover */
+#personagens .card:hover {
+  transform: scale(1.03);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* títulos dentro dos cards */
+#personagens h2 {
+  margin-bottom: 10px;
+  font-size: 1.8em;
+  color: #fff;
+}
+
+/* parágrafos */
+#personagens p {
+  margin: 5px 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #f1f1f1;
+}
